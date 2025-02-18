@@ -12,7 +12,7 @@ export default defineNuxtConfig({
 			})
 		},
 	],
-	ssr: true,
+	// ssr: true,
 	devtools: { enabled: true },
 	app: {
 		head: {
@@ -49,7 +49,7 @@ export default defineNuxtConfig({
 	vuefire: {
 		auth: {
 			enabled: true,
-			sessionCookie: true,
+			// sessionCookie: true,
 		},
 		config: {
 			projectName: process.env.PROJECT_NAME,
